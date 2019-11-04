@@ -1,0 +1,1 @@
+gcc -O3 -o GoL_s GoL_s.c
