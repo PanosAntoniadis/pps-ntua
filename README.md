@@ -1,8 +1,6 @@
 ## __Lab 1:__ Parallelization in multicore and shared-memory architectures
 
-1.  Parallelization of Conway's Game of Life using OpenMP
+- [Conway's Game of Life using OpenMP](./Lab1/ex1)
+- [Floyd-Warshall algorithm using OpenMP and TBB](./Lab1/ex2)
+- More info in [Lab1 README](./Lab1/README.md)
 
-
-
-
-2. Parallelization of Floyd-Warshall algorithm using OpenMP and TBB
