@@ -1,0 +1,2 @@
+gcc -Wall -O3 -Wno-unused-variable -c util.c -o util.o
+gcc util.o fw.c -o fw -Wall -O3 -Wno-unused-variable
