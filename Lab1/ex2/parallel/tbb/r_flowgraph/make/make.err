@@ -1,0 +1,10 @@
+fwr_flowgraph.cpp: In function 'void graph_init_random(int**, int, int, int)':
+fwr_flowgraph.cpp:130:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for(i=0; i<n; i++)
+                ^
+fwr_flowgraph.cpp:131:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for(j=0; j<n; j++)
+                   ^
+fwr_flowgraph.cpp:134:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for(i=0; i<n; i++)adjm[i][i]=0;
+                ^

@@ -1,0 +1,14 @@
+fwt_flowgraph.cpp: In function 'int main(int, char**)':
+fwt_flowgraph.cpp:35:8: warning: unused variable 'j' [-Wunused-variable]
+  int i,j,k;
+        ^
+fwt_flowgraph.cpp: In function 'void graph_init_random(int**, int, int, int)':
+fwt_flowgraph.cpp:136:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for(i=0; i<n; i++)
+                ^
+fwt_flowgraph.cpp:137:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for(j=0; j<n; j++)
+                   ^
+fwt_flowgraph.cpp:140:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for(i=0; i<n; i++)adjm[i][i]=0;
+                ^

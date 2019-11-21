@@ -1,0 +1,10 @@
+fwr_tasks.cpp: In function 'void graph_init_random(int**, int, int, int)':
+fwr_tasks.cpp:120:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for(i=0; i<n; i++)
+                ^
+fwr_tasks.cpp:121:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for(j=0; j<n; j++)
+                   ^
+fwr_tasks.cpp:124:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for(i=0; i<n; i++)adjm[i][i]=0;
+                ^

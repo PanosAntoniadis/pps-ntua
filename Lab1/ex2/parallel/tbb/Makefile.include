@@ -1,0 +1,2 @@
+TBB_DIR = /home/parallel/pps/2018-2019/tbb/tbb_latest
+LIBRARY_VER = $(shell cat /home/parallel/pps/2018-2019/tbb/TBB_LATEST_LIB.TXT)
