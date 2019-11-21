@@ -1,3 +1,7 @@
+# A simple script that plots the time and the speedup
+# of the parallel OpenMP program as the number of available
+# cores increases.
+
 import matplotlib.pyplot as plt
 import sys
 import numpy as np

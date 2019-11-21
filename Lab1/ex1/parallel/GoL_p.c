@@ -1,10 +1,10 @@
-/****************************************************** 
+/******************************************************
  ************* Conway's game of life ******************
  ******************************************************
 
- Usage: ./exec ArraySize TimeSteps                   
+ Usage: ./exec ArraySize TimeSteps
 
- Compile with -DOUTPUT to print output in output.gif 
+ Compile with -DOUTPUT to print output in output.gif
  (You will need ImageMagick for that - Install with
   sudo apt-get install imagemagick)
  WARNING: Do not print output for large array sizes!
@@ -61,6 +61,7 @@ int main (int argc, char * argv[]) {
 
 	gettimeofday(&ts,NULL);
 	for ( t = 0 ; t < T ; t++ ) {
+		/* Use OpenMP parallel for in order to parallelize i and j loops */
 		#pragma omp parallel for shared(N, previous, current) private(i, j, nbrs)
 		for ( i = 1 ; i < N-1 ; i++ )
 			for ( j = 1 ; j < N-1 ; j++ ) {
@@ -69,14 +70,14 @@ int main (int argc, char * argv[]) {
 					+ previous[i-1][j-1] + previous[i-1][j] + previous[i-1][j+1];
 				if ( nbrs == 3 || ( previous[i][j]+nbrs ==3 ) )
 					current[i][j]=1;
-				else 
+				else
 					current[i][j]=0;
 			}
-	
+
 		#ifdef OUTPUT
 		print_to_pgm(current, N, t+1);
 		#endif
-		//Swap current array with previous array 
+		//Swap current array with previous array
 		swap=current;
 		current=previous;
 		previous=swap;
@@ -97,7 +98,7 @@ int ** allocate_array(int N) {
 	int ** array;
 	int i,j;
 	array = malloc(N * sizeof(int*));
-	for ( i = 0; i < N ; i++ ) 
+	for ( i = 0; i < N ; i++ )
 		array[i] = malloc( N * sizeof(int));
 	for ( i = 0; i < N ; i++ )
 		for ( j = 0; j < N ; j++ )
@@ -114,7 +115,7 @@ void free_array(int ** array, int N) {
 
 void init_random(int ** array1, int ** array2, int N) {
 	int i,pos,x,y;
-	
+
 	for ( i = 0 ; i < (N * N)/10 ; i++ ) {
 		pos = rand() % ((N-2)*(N-2));
 		array1[pos%(N-2)+1][pos/(N-2)+1] = 1;
@@ -129,7 +130,7 @@ void print_to_pgm(int ** array, int N, int t) {
 	sprintf(s,"out%d.pgm",t);
 	FILE * f = fopen(s,"wb");
 	fprintf(f, "P5\n%d %d 1\n", N,N);
-	for ( i = 0; i < N ; i++ ) 
+	for ( i = 0; i < N ; i++ )
 		for ( j = 0; j < N ; j++)
 			if ( array[i][j]==1 )
 				fputc(1,f);
@@ -138,4 +139,3 @@ void print_to_pgm(int ** array, int N, int t) {
 	fclose(f);
 	free(s);
 }
-
