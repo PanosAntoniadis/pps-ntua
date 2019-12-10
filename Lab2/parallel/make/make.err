@@ -1,0 +1,23 @@
+RedBlackSOR.c: In function 'main':
+RedBlackSOR.c:34:43: warning: unused variable 'tcvf' [-Wunused-variable]
+     struct timeval tts,ttf,tcs,tcf, tcvs, tcvf;   //Timers: total-> tts,ttf, computation -> tcs,tcf
+                                           ^
+RedBlackSOR.c:34:37: warning: unused variable 'tcvs' [-Wunused-variable]
+     struct timeval tts,ttf,tcs,tcf, tcvs, tcvf;   //Timers: total-> tts,ttf, computation -> tcs,tcf
+                                     ^
+RedBlackSOR.c:30:28: warning: unused variable 'converged' [-Wunused-variable]
+     int global_converged=0,converged=0; //flags for convergence, global and per process
+                            ^
+RedBlackSOR.c:30:9: warning: unused variable 'global_converged' [-Wunused-variable]
+     int global_converged=0,converged=0; //flags for convergence, global and per process
+         ^
+RedBlackSOR.c:381:5: warning: 'scattercounts' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     MPI_Gatherv(&u_current[1][1], 1, local_block, U_start, scattercounts, scatteroffset, global_block, 0, MPI_COMM_WORLD);
+     ^
+RedBlackSOR.c:381:5: warning: 'scatteroffset' may be used uninitialized in this function [-Wmaybe-uninitialized]
+RedBlackSOR.c:151:5: warning: 'U_start' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     MPI_Scatterv(U_start, scattercounts, scatteroffset, global_block, &(u_current[1][1]), 1, local_block, 0, MPI_COMM_WORLD);
+     ^
+RedBlackSOR.c:159:9: warning: 'U' may be used uninitialized in this function [-Wmaybe-uninitialized]
+         free2d(U);
+         ^

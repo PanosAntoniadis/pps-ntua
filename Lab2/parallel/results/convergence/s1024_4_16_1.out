@@ -1,0 +1,3 @@
+Jacobi X 1024 Y 1024 Px 4 Py 16 Iter 798201 ComputationTime 38.874731 TotalTime 485.193483 Convergence Time 28.145167  midpoint 5.431022
+GaussSeidelSOR X 1024 Y 1024 Px 4 Py 16 Iter 3201 ComputationTime 0.437761 TotalTime 2.881227 Convergence Time 0.224646 midpoint 5.642998
+RedBlackSOR X 1024 Y 1024 Px 4 Py 16 Iter 2501 ComputationTime 0.287446 TotalTime 3.102612 Convergence Time 0.109385  midpoint 5.642974

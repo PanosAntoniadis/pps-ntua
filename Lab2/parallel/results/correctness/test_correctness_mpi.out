@@ -1,0 +1,6 @@
+Jacobi X 256 Y 256 Iter 256 Time 0.104996 midpoint 0.000000
+GaussSeidelSOR X 256 Y 256 Iter 256 Time 0.183075 midpoint 1.290866
+RedBlackSOR X 256 Y 256 Iter 256 Time 0.117187 midpoint 1.394488
+Jacobi X 256 Y 256 Px 8 Py 4 Iter 256 ComputationTime 0.001764 TotalTime 0.056122 Convergence Time 0.000000  midpoint 0.000000
+GaussSeidelSOR X 256 Y 256 Px 8 Py 4 Iter 256 ComputationTime 0.004833 TotalTime 0.060423 Convergence Time 0.000000 midpoint 1.290866
+RedBlackSOR X 256 Y 256 Px 8 Py 4 Iter 256 ComputationTime 0.004065 TotalTime 0.106734 Convergence Time 0.000000  midpoint 1.394488
