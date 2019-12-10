@@ -121,6 +121,7 @@ ax.set_xlabel("Method")
 ax.xaxis.set_ticks(np.arange(0, len(r), 1))
 ax.set_xticklabels(['Jacobi', 'GaussSeidelSOR', 'RedBlackSOR'], rotation=45)
 ax.set_xlim(-0.5, len(r) - 0.5)
+ax.set_ylim(0.0, 3.0)
 ax.set_ylabel("Time (s)")
 
 plt.bar(r, [t_jac_2048_m[0], t_gau_2048_m[0], t_rb_2048_m[0]],
@@ -140,6 +141,7 @@ ax.set_xlabel("Method")
 ax.xaxis.set_ticks(np.arange(0, len(r), 1))
 ax.set_xticklabels(['Jacobi', 'GaussSeidelSOR', 'RedBlackSOR'], rotation=45)
 ax.set_xlim(-0.5, len(r) - 0.5)
+ax.set_ylim(0.0, 3.0)
 ax.set_ylabel("Time (s)")
 
 plt.bar(r, [t_jac_2048_m[1], t_gau_2048_m[1], t_rb_2048_m[1]],
@@ -159,6 +161,7 @@ ax.set_xlabel("Method")
 ax.xaxis.set_ticks(np.arange(0, len(r), 1))
 ax.set_xticklabels(['Jacobi', 'GaussSeidelSOR', 'RedBlackSOR'], rotation=45)
 ax.set_xlim(-0.5, len(r) - 0.5)
+ax.set_ylim(0.0, 3.0)
 ax.set_ylabel("Time (s)")
 
 plt.bar(r, [t_jac_2048_m[2], t_gau_2048_m[2], t_rb_2048_m[2]],
@@ -178,6 +181,7 @@ ax.set_xlabel("Method")
 ax.xaxis.set_ticks(np.arange(0, len(r), 1))
 ax.set_xticklabels(['Jacobi', 'GaussSeidelSOR', 'RedBlackSOR'], rotation=45)
 ax.set_xlim(-0.5, len(r) - 0.5)
+ax.set_ylim(0.0, 3.0)
 ax.set_ylabel("Time (s)")
 
 plt.bar(r, [t_jac_2048_m[3], t_gau_2048_m[3], t_rb_2048_m[3]],
@@ -197,6 +201,7 @@ ax.set_xlabel("Method")
 ax.xaxis.set_ticks(np.arange(0, len(r), 1))
 ax.set_xticklabels(['Jacobi', 'GaussSeidelSOR', 'RedBlackSOR'], rotation=45)
 ax.set_xlim(-0.5, len(r) - 0.5)
+ax.set_ylim(0.0, 12.0)
 ax.set_ylabel("Time (s)")
 
 plt.bar(r, [t_jac_4096_m[0], t_gau_4096_m[0], t_rb_4096_m[0]],
@@ -216,6 +221,7 @@ ax.set_xlabel("Method")
 ax.xaxis.set_ticks(np.arange(0, len(r), 1))
 ax.set_xticklabels(['Jacobi', 'GaussSeidelSOR', 'RedBlackSOR'], rotation=45)
 ax.set_xlim(-0.5, len(r) - 0.5)
+ax.set_ylim(0.0, 12.0)
 ax.set_ylabel("Time (s)")
 
 plt.bar(r, [t_jac_4096_m[1], t_gau_4096_m[1], t_rb_4096_m[1]],
@@ -236,6 +242,7 @@ ax.set_xlabel("Method")
 ax.xaxis.set_ticks(np.arange(0, len(r), 1))
 ax.set_xticklabels(['Jacobi', 'GaussSeidelSOR', 'RedBlackSOR'], rotation=45)
 ax.set_xlim(-0.5, len(r) - 0.5)
+ax.set_ylim(0.0, 12.0)
 ax.set_ylabel("Time (s)")
 
 plt.bar(r, [t_jac_4096_m[2], t_gau_4096_m[2], t_rb_4096_m[2]],
@@ -256,6 +263,7 @@ ax.set_xlabel("Method")
 ax.xaxis.set_ticks(np.arange(0, len(r), 1))
 ax.set_xticklabels(['Jacobi', 'GaussSeidelSOR', 'RedBlackSOR'], rotation=45)
 ax.set_xlim(-0.5, len(r) - 0.5)
+ax.set_ylim(0.0, 12.0)
 ax.set_ylabel("Time (s)")
 
 plt.bar(r, [t_jac_4096_m[3], t_gau_4096_m[3], t_rb_4096_m[3]],
@@ -276,6 +284,7 @@ ax.set_xlabel("Method")
 ax.xaxis.set_ticks(np.arange(0, len(r), 1))
 ax.set_xticklabels(['Jacobi', 'GaussSeidelSOR', 'RedBlackSOR'], rotation=45)
 ax.set_xlim(-0.5, len(r) - 0.5)
+ax.set_ylim(0.0, 25.0)
 ax.set_ylabel("Time (s)")
 
 plt.bar(r, [t_jac_6144_m[0], t_gau_6144_m[0], t_rb_6144_m[0]],
@@ -295,6 +304,7 @@ ax.set_xlabel("Method")
 ax.xaxis.set_ticks(np.arange(0, len(r), 1))
 ax.set_xticklabels(['Jacobi', 'GaussSeidelSOR', 'RedBlackSOR'], rotation=45)
 ax.set_xlim(-0.5, len(r) - 0.5)
+ax.set_ylim(0.0, 25.0)
 ax.set_ylabel("Time (s)")
 
 plt.bar(r, [t_jac_6144_m[1], t_gau_6144_m[1], t_rb_6144_m[1]],
@@ -314,6 +324,7 @@ ax.set_xlabel("Method")
 ax.xaxis.set_ticks(np.arange(0, len(r), 1))
 ax.set_xticklabels(['Jacobi', 'GaussSeidelSOR', 'RedBlackSOR'], rotation=45)
 ax.set_xlim(-0.5, len(r) - 0.5)
+ax.set_ylim(0.0, 25.0)
 ax.set_ylabel("Time (s)")
 
 plt.bar(r, [t_jac_6144_m[2], t_gau_6144_m[2], t_rb_6144_m[2]],
@@ -337,6 +348,7 @@ ax.set_xlabel("Method")
 ax.xaxis.set_ticks(np.arange(0, len(r), 1))
 ax.set_xticklabels(['Jacobi', 'GaussSeidelSOR', 'RedBlackSOR'], rotation=45)
 ax.set_xlim(-0.5, len(r) - 0.5)
+ax.set_ylim(0.0, 25.0)
 ax.set_ylabel("Time (s)")
 
 plt.bar(r, [t_jac_6144_m[3], t_gau_6144_m[3], t_rb_6144_m[3]],

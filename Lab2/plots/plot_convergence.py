@@ -174,6 +174,7 @@ ax.set_xlabel("Grid Size")
 ax.xaxis.set_ticks(np.arange(0, len(r), 1))
 ax.set_xticklabels(['16x4', '4x16', '8x8'], rotation=45)
 ax.set_xlim(-0.5, len(r) - 0.5)
+ax.set_ylim(0.0, 4.0)
 ax.set_ylabel("Time (s)")
 
 
@@ -201,6 +202,7 @@ ax.set_xlabel("Grid Size")
 ax.xaxis.set_ticks(np.arange(0, len(r), 1))
 ax.set_xticklabels(['16x4', '4x16', '8x8'], rotation=45)
 ax.set_xlim(-0.5, len(r) - 0.5)
+ax.set_ylim(0.0, 4.0)
 ax.set_ylabel("Time (s)")
 
 
