@@ -1,0 +1,2 @@
+gcc -Wall -Wextra -pthread -O0 accounts.c ../common/aff.c -o accounts
+gcc -Wall -Wextra -pthread -O0 accounts_opt.c ../common/aff.c -o accounts_opt
