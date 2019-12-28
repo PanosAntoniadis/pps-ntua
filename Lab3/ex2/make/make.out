@@ -1,0 +1,12 @@
+gcc -Wall -Wextra -pthread -O0 -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function main.c nosync_lock.c ../common/aff.c -o linked_list_nosync
+gcc -Wall -Wextra -pthread -O0 -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function test.c nosync_lock.c ../common/aff.c -o test_nosync
+gcc -Wall -Wextra -pthread -O0 -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function main.c pthread_lock.c ../common/aff.c -o linked_list_pthread
+gcc -Wall -Wextra -pthread -O0 -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function test.c pthread_lock.c ../common/aff.c -o test_pthread
+gcc -Wall -Wextra -pthread -O0 -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function main.c tas_lock.c ../common/aff.c -o linked_list_tas
+gcc -Wall -Wextra -pthread -O0 -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function test.c tas_lock.c ../common/aff.c -o test_tas
+gcc -Wall -Wextra -pthread -O0 -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function main.c ttas_lock.c ../common/aff.c -o linked_list_ttas
+gcc -Wall -Wextra -pthread -O0 -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function test.c ttas_lock.c ../common/aff.c -o test_ttas
+gcc -Wall -Wextra -pthread -O0 -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function main.c array_lock.c ../common/aff.c -o linked_list_array
+gcc -Wall -Wextra -pthread -O0 -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function test.c array_lock.c ../common/aff.c -o test_array
+gcc -Wall -Wextra -pthread -O0 -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function main.c clh_lock.c ../common/aff.c -o linked_list_clh
+gcc -Wall -Wextra -pthread -O0 -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function test.c clh_lock.c ../common/aff.c -o test_clh

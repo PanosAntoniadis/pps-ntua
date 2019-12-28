@@ -1,0 +1,7 @@
+1 threads: CORRECT
+2 threads: ERROR (expected = 20000, result = 14754)
+4 threads: ERROR (expected = 40000, result = 15573)
+8 threads: ERROR (expected = 80000, result = 12029)
+16 threads: ERROR (expected = 160000, result = 33042)
+32 threads: ERROR (expected = 320000, result = 50095)
+64 threads: ERROR (expected = 640000, result = 64084)
