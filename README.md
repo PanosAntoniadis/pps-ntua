@@ -15,9 +15,9 @@
 
 ### __Lab 3:__ Synchronization techniques in multicore systems
 
-- [Cache hierarchy and Scalability](./Lab3/ex1)
-- [Mutual Exclusion - Locks](./Lab3/ex2)
-- [Synchronization techniques in Data Structures](./Lab3/ex3)
+- [Cache hierarchy and Scalability](./Lab3/ex1-cache)
+- [Mutual Exclusion - Locks](./Lab3/ex2-lock)
+- [Synchronization techniques in Data Structures](./Lab3/ex3-ds)
 - More info in [Lab3 README](./Lab3/README.md)
 
 
