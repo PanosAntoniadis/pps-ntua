@@ -1,0 +1,4 @@
+gcc -Wall -Wextra -pthread -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function  main.c ll_serial.c ../common/aff.c -o linked_list_serial
+gcc -Wall -Wextra -pthread -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -DPRINT_RESULTS main.c ll_fgl.c ../common/aff.c -o linked_list_fgl
+gcc -Wall -Wextra -pthread -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -DPRINT_RESULTS main.c ll_opt.c ../common/aff.c -o linked_list_opt
+gcc -Wall -Wextra -pthread -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -DPRINT_RESULTS main.c ll_lazy.c ../common/aff.c -o linked_list_lazy

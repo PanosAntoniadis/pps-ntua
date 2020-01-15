@@ -1,0 +1,28 @@
+MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 209.51
+MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 176.59
+MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 270.12
+MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 457.14
+MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 213.13
+MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 235.33
+MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63
+Nthreads: 64  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 247.50
+MT_CONF=0
+Nthreads: 1  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 28.62
+MT_CONF=0,1
+Nthreads: 2  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 26.69
+MT_CONF=0,1,2,3
+Nthreads: 4  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 41.79
+MT_CONF=0,1,2,3,4,5,6,7
+Nthreads: 8  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 73.72
+MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Nthreads: 16  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 44.51
+MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+Nthreads: 32  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 59.32
+MT_CONF=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63
+Nthreads: 64  Runtime(sec): 10  Workload: 20/40/40  Throughput(Kops/sec): 86.45
