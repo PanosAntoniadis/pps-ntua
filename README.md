@@ -21,5 +21,7 @@
 - More info in [Lab3 README](./Lab3/README.md)
 
 
-
+## Contributors:
+- [Antoniadis Panagiotis](https://github.com/PanosAntoniadis)
+- [Bazotis Nikolaos](https://github.com/Nick-Buzz)
 
